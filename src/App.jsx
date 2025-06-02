@@ -1,8 +1,10 @@
-import ToDoList from './ToDoList.jsx'
-import App from './App.css'
+import ToDoList from './ToDoList.jsx';
+import './App.css'; // Correctly import the CSS file
+
 function App() {
-  return (
-    <ToDoList/>
-  );
+    return (
+        <ToDoList />
+    );
 }
-export default App
+
+export default App;
